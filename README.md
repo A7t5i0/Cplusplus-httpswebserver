@@ -21,7 +21,7 @@ Features:
 
 Compiled with:
 
-g++ -g main.cpp -o server -Wformat-truncation -Wformat-overflow -Wextra -lssl -lcrypto
+g++ -g *.cpp -L/usr/lib -lssl -lcrypto -std=c++17 -o server
 
 Use:
 
