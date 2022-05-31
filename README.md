@@ -15,7 +15,7 @@ Features:
 
 -Multithreading (fork)
 
--Checks for symbols " ' ./ to prevent exposing /etc/passwd
+-Checks for symbols ' ./ to prevent exposing /etc/passwd
 
 -Checks for possible commands such as sudo and cat to prevent commands being run by bad actors.
 
