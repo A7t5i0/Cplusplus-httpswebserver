@@ -1,0 +1,1 @@
+g++ -g *.cpp -L/usr/lib -lssl -lcrypto -std=c++17 -o server
